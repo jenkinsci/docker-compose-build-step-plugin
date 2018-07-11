@@ -1,0 +1,28 @@
+<?jelly escape-by-default='true'?>
+
+  <j:jelly xmlns:j="jelly:core"
+         xmlns:st="jelly:stapler"
+         xmlns:d="jelly:define"
+         xmlns:l="/lib/layout"
+         xmlns:t="/lib/hudson"
+         xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+    See global.jelly for a general discussion about jelly script.
+  -->
+
+  <f:block>
+    <table>
+      <f:optionalBlock name="useCustomDockerComposeFile" title="Use Custom Docker Compose File" field="useCustomDockerComposeFile" inline="true">
+        <f:entry title="Docker Compose File" field="dockerComposeFile">
+          <f:textbox default="docker-compose.yml"/>
+        </f:entry>
+      </f:optionalBlock>
+    </table>
+  </f:block>
+
+  <f:entry name="option" title="Docker Compose Command">
+    <f:dropdownDescriptorSelector field="option" descriptors="${descriptor.getOptionList}"/>
+  </f:entry>
+
+</j:jelly>

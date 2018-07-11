@@ -1,0 +1,6 @@
+target
+work
+.settings/*
+.classpath
+.factorypath
+.project
