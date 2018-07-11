@@ -29,7 +29,7 @@
 
 	<name>Docker Compose Build Step Plugin</name>
 	<description>Allows users to run docker-compose commands as build steps</description>
-	<url>http://wiki.jenkins-ci.org/display/JENKINS/Docker+Compose+Plugin</url>
+	<url>http://wiki.jenkins-ci.org/display/JENKINS/Docker+Compose+Build+Step+Plugin</url>
 
 	<licenses>
 		<license>
