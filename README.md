@@ -4,7 +4,7 @@
 
 > The Docker Compose Build Step plugin allows the user to run docker-compose commands as build steps.
 
-<img src="images/compose_and_jenkins.png" width="300">
+<img src="images/docker-compose-jenkins.jpg" width="300">
 
 ## Information
 
